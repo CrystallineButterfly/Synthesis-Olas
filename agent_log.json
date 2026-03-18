@@ -9,7 +9,7 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "discover",
     "actor": "agent_runtime",
     "message": "Ranked local signals.",
@@ -39,25 +39,25 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "plan",
     "actor": "agent_runtime",
     "message": "Built bounded plan.",
     "details": {
-      "plan_id": "0x46e474412326bed979b99a0eb029befe14b6a903d392f34cbcd16d961fcfacba"
+      "plan_id": "0x05020fe24e21e39a5a4a865ac39402aba08035dcb15087252cce60c9a8dfe5cb"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "dry_run",
     "actor": "agent_runtime",
     "message": "Prepared partner previews.",
     "details": {
-      "simulation_hash": "0xd3c245604f031e935df78624a95f3ef38ff1495fd8ddc42d97dc048f18584a15"
+      "simulation_hash": "0xd46670f92a05882474f73749266c27c29cbb9077bd4f0e77f41b61422e11efe1"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "execute",
     "actor": "agent_runtime",
     "message": "Skipped live execution.",
@@ -79,7 +79,7 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "verify",
     "actor": "agent_runtime",
     "message": "Wrote verification.",
@@ -87,15 +87,15 @@
       "status": "verified",
       "project_name": "Pearl Marshal",
       "track": "Autonolas Olas",
-      "plan_id": "0x46e474412326bed979b99a0eb029befe14b6a903d392f34cbcd16d961fcfacba",
-      "simulation_hash": "0xd3c245604f031e935df78624a95f3ef38ff1495fd8ddc42d97dc048f18584a15",
+      "plan_id": "0x05020fe24e21e39a5a4a865ac39402aba08035dcb15087252cce60c9a8dfe5cb",
+      "simulation_hash": "0xd46670f92a05882474f73749266c27c29cbb9077bd4f0e77f41b61422e11efe1",
       "execution_status": "awaiting_credentials",
       "tx_ids": [],
-      "created_at": "2026-03-18T21:44:09+00:00"
+      "created_at": "2026-03-18T23:01:25+00:00"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "discover",
     "actor": "agent_runtime",
     "message": "Ranked local signals.",
@@ -125,25 +125,25 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "plan",
     "actor": "agent_runtime",
     "message": "Built bounded plan.",
     "details": {
-      "plan_id": "0x46e474412326bed979b99a0eb029befe14b6a903d392f34cbcd16d961fcfacba"
+      "plan_id": "0x05020fe24e21e39a5a4a865ac39402aba08035dcb15087252cce60c9a8dfe5cb"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "dry_run",
     "actor": "agent_runtime",
     "message": "Prepared partner previews.",
     "details": {
-      "simulation_hash": "0xd3c245604f031e935df78624a95f3ef38ff1495fd8ddc42d97dc048f18584a15"
+      "simulation_hash": "0xd46670f92a05882474f73749266c27c29cbb9077bd4f0e77f41b61422e11efe1"
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "execute",
     "actor": "agent_runtime",
     "message": "Skipped live execution.",
@@ -165,7 +165,7 @@
     }
   },
   {
-    "timestamp": "2026-03-18T21:44:09+00:00",
+    "timestamp": "2026-03-18T23:01:25+00:00",
     "stage": "verify",
     "actor": "agent_runtime",
     "message": "Wrote verification.",
@@ -173,11 +173,11 @@
       "status": "verified",
       "project_name": "Pearl Marshal",
       "track": "Autonolas Olas",
-      "plan_id": "0x46e474412326bed979b99a0eb029befe14b6a903d392f34cbcd16d961fcfacba",
-      "simulation_hash": "0xd3c245604f031e935df78624a95f3ef38ff1495fd8ddc42d97dc048f18584a15",
+      "plan_id": "0x05020fe24e21e39a5a4a865ac39402aba08035dcb15087252cce60c9a8dfe5cb",
+      "simulation_hash": "0xd46670f92a05882474f73749266c27c29cbb9077bd4f0e77f41b61422e11efe1",
       "execution_status": "awaiting_credentials",
       "tx_ids": [],
-      "created_at": "2026-03-18T21:44:09+00:00"
+      "created_at": "2026-03-18T23:01:25+00:00"
     }
   }
 ]

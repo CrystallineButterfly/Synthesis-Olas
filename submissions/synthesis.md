@@ -1,6 +1,6 @@
 # Pearl Marshal
 
-- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Olas
+- **Repo:** TODO_GITHUB_URL/Synthesis-Olas
 - **Primary track:** Autonolas Olas
 - **Overlap targets:** OpenServ, ERC-8004 Receipts, Lido Vault Monitor, Bankr Gateway, Uniswap Agentic Finance, Ampersend
 - **Primary contract:** PearlMarshalCoordinator
@@ -18,10 +18,10 @@ A marketplace-ready swarm coordinator that hires specialized workers, serves its
   "status": "verified",
   "project_name": "Pearl Marshal",
   "track": "Autonolas Olas",
-  "plan_id": "0x46e474412326bed979b99a0eb029befe14b6a903d392f34cbcd16d961fcfacba",
-  "simulation_hash": "0xd3c245604f031e935df78624a95f3ef38ff1495fd8ddc42d97dc048f18584a15",
+  "plan_id": "0x05020fe24e21e39a5a4a865ac39402aba08035dcb15087252cce60c9a8dfe5cb",
+  "simulation_hash": "0xd46670f92a05882474f73749266c27c29cbb9077bd4f0e77f41b61422e11efe1",
   "execution_status": "awaiting_credentials",
   "tx_ids": [],
-  "created_at": "2026-03-18T21:44:09+00:00"
+  "created_at": "2026-03-18T23:01:25+00:00"
 }
 ```
