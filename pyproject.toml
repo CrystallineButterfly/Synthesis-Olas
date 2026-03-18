@@ -1,9 +1,13 @@
+
 [project]
 name = "synthesis_olas"
 version = "0.1.0"
 description = "A marketplace-ready swarm coordinator that hires specialized workers, serves its own monitoring API, and records request counts toward monetization targets."
 readme = "README.md"
 requires-python = ">=3.13"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 100
