@@ -1,6 +1,6 @@
 # Pearl Marshal
 
-- **Repo:** TODO_GITHUB_URL/Synthesis-Olas
+- **Repo:** https://github.com/CrystallineButterfly/Synthesis-Olas
 - **Primary track:** Autonolas Olas
 - **Overlap targets:** OpenServ, ERC-8004 Receipts, Lido Vault Monitor, Bankr Gateway, Uniswap Agentic Finance, Ampersend
 - **Primary contract:** PearlMarshalCoordinator
