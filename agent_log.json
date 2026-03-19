@@ -7,5 +7,587 @@
     "details": {
       "status": "ready_for_credentials"
     }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x50a1a8848c2c87cb0b16005f5e8efb890cbf9c8e72fc76c7e9f8f5bd3782dc63"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x9b2f06ead0261bc9f88e248b8e41f98e7a4f086ad03682465ad17c50ff8aef08"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "OLAS_API_KEY",
+        "OLAS_REQUEST_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Pearl Marshal",
+      "track": "Autonolas Olas",
+      "plan_id": "0x50a1a8848c2c87cb0b16005f5e8efb890cbf9c8e72fc76c7e9f8f5bd3782dc63",
+      "simulation_hash": "0x9b2f06ead0261bc9f88e248b8e41f98e7a4f086ad03682465ad17c50ff8aef08",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:16+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan.",
+    "details": {
+      "plan_id": "0x50a1a8848c2c87cb0b16005f5e8efb890cbf9c8e72fc76c7e9f8f5bd3782dc63"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x9b2f06ead0261bc9f88e248b8e41f98e7a4f086ad03682465ad17c50ff8aef08"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Skipped live execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "OLAS_API_KEY",
+        "OLAS_REQUEST_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "RPC_URL",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:30:16+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Pearl Marshal",
+      "track": "Autonolas Olas",
+      "plan_id": "0x50a1a8848c2c87cb0b16005f5e8efb890cbf9c8e72fc76c7e9f8f5bd3782dc63",
+      "simulation_hash": "0x9b2f06ead0261bc9f88e248b8e41f98e7a4f086ad03682465ad17c50ff8aef08",
+      "execution_status": "awaiting_credentials",
+      "tx_ids": [],
+      "created_at": "2026-03-19T03:30:16+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:39:23.678178+00:00",
+    "stage": "security_review",
+    "actor": "audit_pass",
+    "message": "Completed the shared hardening and offline-artifact audit pass.",
+    "details": {
+      "status": "audited_ready_pending_live_credentials",
+      "primary_contract": "PearlMarshalCoordinator.sol"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:00+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:00+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xe010b7ff7f9f3898db0afd22f7cc8d3025cbed9a3e18d8049617522403d3c0f9",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:00+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x1585c92f4556a92a48ebfe27ac32c20d8f3d938c79624d0a3cc04794461242e2"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:00+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "OLAS_API_KEY",
+        "OLAS_REQUEST_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:49:00+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Pearl Marshal",
+      "track": "Autonolas Olas",
+      "plan_id": "0xe010b7ff7f9f3898db0afd22f7cc8d3025cbed9a3e18d8049617522403d3c0f9",
+      "simulation_hash": "0x1585c92f4556a92a48ebfe27ac32c20d8f3d938c79624d0a3cc04794461242e2",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/lido_vault_monitor_vault_alert.json"
+      ],
+      "partner_statuses": {
+        "Olas": "awaiting_credentials",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Lido Vault Monitor": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "Ampersend": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:49:00+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x8ee6010fd90767cf9faf0450d8d95819daa9e47252fb81fb75c85c72088c5646",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x91135e5f220d7538414e2796b189c89f54f4126a0e6e48f10e1dcd3ed75def28"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "OLAS_API_KEY",
+        "OLAS_REQUEST_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:50:46+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Pearl Marshal",
+      "track": "Autonolas Olas",
+      "plan_id": "0x8ee6010fd90767cf9faf0450d8d95819daa9e47252fb81fb75c85c72088c5646",
+      "simulation_hash": "0x91135e5f220d7538414e2796b189c89f54f4126a0e6e48f10e1dcd3ed75def28",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/lido_vault_monitor_vault_alert.json"
+      ],
+      "partner_statuses": {
+        "Olas": "awaiting_credentials",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Lido Vault Monitor": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "Ampersend": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:50:46+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0xb7f391b69851f7da6c6500002f35fe44d96a5abdf50a598ec14d2caea2983619",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0x63e55e8c9f4067149770ce3b44acccfc71289139f77bc082aa4c39d4e01f4d85"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "OLAS_API_KEY",
+        "OLAS_REQUEST_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:51:48+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Pearl Marshal",
+      "track": "Autonolas Olas",
+      "plan_id": "0xb7f391b69851f7da6c6500002f35fe44d96a5abdf50a598ec14d2caea2983619",
+      "simulation_hash": "0x63e55e8c9f4067149770ce3b44acccfc71289139f77bc082aa4c39d4e01f4d85",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/lido_vault_monitor_vault_alert.json"
+      ],
+      "partner_statuses": {
+        "Olas": "awaiting_credentials",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Lido Vault Monitor": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "Ampersend": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:51:48+00:00"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "discover",
+    "actor": "agent_runtime",
+    "message": "Ranked local signals.",
+    "details": {
+      "signals": [
+        {
+          "name": "problem_signal",
+          "description": "Discovery inputs used to detect a real opportunity.",
+          "score": 95
+        },
+        {
+          "name": "policy_envelope",
+          "description": "Budget, caps, and cooldown policy state.",
+          "score": 90
+        },
+        {
+          "name": "execution_bundle",
+          "description": "Dry-run and live execution bundle metadata.",
+          "score": 85
+        },
+        {
+          "name": "receipts",
+          "description": "Submission notes and final verification digests.",
+          "score": 80
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "plan",
+    "actor": "agent_runtime",
+    "message": "Built bounded plan for every repo action.",
+    "details": {
+      "plan_id": "0x8873e46755dc420376e7bb7c6ab08fcab12a2a6409d5fe2c3d62fa1a5b07c172",
+      "action_count": 7
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "dry_run",
+    "actor": "agent_runtime",
+    "message": "Prepared partner previews.",
+    "details": {
+      "simulation_hash": "0xbbebba83d43129aea503b6b132dfe3f019cf18459aa17c4ede4ed74f111be3bb"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "execute",
+    "actor": "agent_runtime",
+    "message": "Prepared offline artifacts and skipped network execution.",
+    "details": {
+      "missing_env": [
+        "AMPERSEND_API_KEY",
+        "AMPERSEND_PAYMENT_URL",
+        "BANKR_API_KEY",
+        "BANKR_CHAT_COMPLETIONS_URL",
+        "BANKR_MODEL",
+        "OLAS_API_KEY",
+        "OLAS_REQUEST_URL",
+        "OPENSERV_AGENT_URL",
+        "OPENSERV_API_KEY",
+        "UNISWAP_API_KEY",
+        "UNISWAP_QUOTE_URL"
+      ],
+      "artifact_count": 2
+    }
+  },
+  {
+    "timestamp": "2026-03-19T03:52:16+00:00",
+    "stage": "verify",
+    "actor": "agent_runtime",
+    "message": "Wrote verification.",
+    "details": {
+      "status": "verified",
+      "project_name": "Pearl Marshal",
+      "track": "Autonolas Olas",
+      "plan_id": "0x8873e46755dc420376e7bb7c6ab08fcab12a2a6409d5fe2c3d62fa1a5b07c172",
+      "simulation_hash": "0xbbebba83d43129aea503b6b132dfe3f019cf18459aa17c4ede4ed74f111be3bb",
+      "execution_status": "offline_prepared",
+      "tx_ids": [],
+      "artifact_paths": [
+        "artifacts/onchain_intents/erc_8004_receipts_receipt_anchor.json",
+        "artifacts/onchain_intents/lido_vault_monitor_vault_alert.json"
+      ],
+      "partner_statuses": {
+        "Olas": "awaiting_credentials",
+        "OpenServ": "awaiting_credentials",
+        "ERC-8004 Receipts": "prepared_contract_call",
+        "Lido Vault Monitor": "prepared_contract_call",
+        "Bankr Gateway": "awaiting_credentials",
+        "Uniswap": "awaiting_credentials",
+        "Ampersend": "awaiting_credentials"
+      },
+      "created_at": "2026-03-19T03:52:16+00:00"
+    }
   }
 ]
